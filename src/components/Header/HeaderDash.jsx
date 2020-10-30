@@ -7,7 +7,7 @@ export default function HeaderDash() {
             <h4 className="mr-5 ml-3 mt-3" style={{ color: "#3343E0", fontWeight:"600"}}>Dashboard</h4>
            <div className="admin-profile ml-5">
                <div className="admin-img">
-                   <img src="https://gitlab.com/yomicasual.gitlab.io/veegil-bank-admin-dashboard/raw/master/public/images/t1.jpg" alt="profile"/>
+                   <img src="/images/t1.jpg" alt="profile"/>
                 </div>
                 <div className="admin-details">
                     <h4>Onisade Abiodun</h4>

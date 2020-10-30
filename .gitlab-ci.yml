@@ -1,5 +1,9 @@
 image: node:14.6.0 # change to match your project's node version
 
+
+variables:
+  PUBLIC_URL: /veegil-bank-admin-dashboard
+
 cache:
   paths:
     - node_modules/
@@ -16,7 +20,6 @@ build-pages:
   artifacts:
     paths:
       - public
-
 
 pages:
   stage: deploy

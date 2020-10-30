@@ -1,5 +1,3 @@
-image: node:6.5.0 # can be upgraded, depending on your node version used
- 
 pages:
   cache:
     paths:

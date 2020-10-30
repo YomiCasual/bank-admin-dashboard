@@ -267,14 +267,5 @@ input:hover {
 }
 
 
-#zingchart-react-1-top, 
-#zingchart-react-1-wrapper, 
-#zingchart-react-1, 
-#zingchart-react-1-top img,
-#zingchart-react-1-top svg
-{
-  height: 240px!important;
-  margin-top: -0.5rem
-}
 
 /*********** End of Content ************/

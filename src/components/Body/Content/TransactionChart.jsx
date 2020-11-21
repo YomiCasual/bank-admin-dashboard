@@ -15,7 +15,6 @@ class TransactionChart extends Component {
           'scale-x': {
             labels: [ "Jan2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "June 2020", "July 2020", "Aug 2020", "Sep 2020" ]
           },
-          height: '280px',
           series: [
               {
             values: [4000,5243,3839,4030,5902,321,5092,4309,110]

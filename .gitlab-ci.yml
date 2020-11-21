@@ -1,10 +1,30 @@
-stages:
-    - build
-    - deploy
-build:
-    stage: build
-    script:
-        - echo "Building deploy package"
-        - yarn install
-        - yarn build
-        - echo "Build successful"
+image: node:14.6.0 # change to match your project's node version
+
+
+variables:
+  PUBLIC_URL: /veegil-bank-admin-dashboard
+
+cache:
+  paths:
+    - node_modules/
+
+build-pages:
+  stage: build
+  script:
+    - rm -rf build
+    - CI=false npm install
+    - CI=false npm run build
+    - rm -rf public
+    - cp build/index.html build/404.html
+    - mv build public
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - ls
+  artifacts:
+    paths:
+      - public

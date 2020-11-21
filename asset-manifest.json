@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bank-admin-dashboard/static/css/main.0cc485e9.chunk.css",
+    "main.js": "/bank-admin-dashboard/static/js/main.e56f0567.chunk.js",
+    "main.js.map": "/bank-admin-dashboard/static/js/main.e56f0567.chunk.js.map",
+    "runtime-main.js": "/bank-admin-dashboard/static/js/runtime-main.25e105ea.js",
+    "runtime-main.js.map": "/bank-admin-dashboard/static/js/runtime-main.25e105ea.js.map",
+    "static/css/2.e1e88d17.chunk.css": "/bank-admin-dashboard/static/css/2.e1e88d17.chunk.css",
+    "static/js/2.b0830c1e.chunk.js": "/bank-admin-dashboard/static/js/2.b0830c1e.chunk.js",
+    "static/js/2.b0830c1e.chunk.js.map": "/bank-admin-dashboard/static/js/2.b0830c1e.chunk.js.map",
+    "static/js/3.6859ec19.chunk.js": "/bank-admin-dashboard/static/js/3.6859ec19.chunk.js",
+    "static/js/3.6859ec19.chunk.js.map": "/bank-admin-dashboard/static/js/3.6859ec19.chunk.js.map",
+    "index.html": "/bank-admin-dashboard/index.html",
+    "static/css/2.e1e88d17.chunk.css.map": "/bank-admin-dashboard/static/css/2.e1e88d17.chunk.css.map",
+    "static/css/main.0cc485e9.chunk.css.map": "/bank-admin-dashboard/static/css/main.0cc485e9.chunk.css.map",
+    "static/js/2.b0830c1e.chunk.js.LICENSE.txt": "/bank-admin-dashboard/static/js/2.b0830c1e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25e105ea.js",
+    "static/css/2.e1e88d17.chunk.css",
+    "static/js/2.b0830c1e.chunk.js",
+    "static/css/main.0cc485e9.chunk.css",
+    "static/js/main.e56f0567.chunk.js"
+  ]
+}
